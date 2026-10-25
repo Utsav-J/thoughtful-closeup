@@ -24,6 +24,9 @@
   },
   "scripts": {
     "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render ThoughtfulCloseup out/thoughtful-closeup.mp4",
+    "typecheck": "tsc --noEmit",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
